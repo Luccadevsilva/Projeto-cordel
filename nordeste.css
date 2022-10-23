@@ -4,6 +4,7 @@
 }
 body{
     background-color: bisque;
+    min-height: 100vh;
 
 
 }
@@ -46,6 +47,54 @@ main {
 
 }
 
-footer {
+section {
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    line-height: 2em;
+    padding-left: 30px;
+}
 
+h2 {
+    font-style: italic;
+}
+
+section.img {
+    background-color: gold;
+    color: black;
+}
+
+section.img > p {
+    background-color: goldenrod;
+    width: 400px;
+}
+
+section.normal {
+    background-color: goldenrod;
+    color: rgb(10, 10, 10);
+}
+#milton {
+    color: purple;
+}
+
+
+footer{
+    background-color: goldenrod;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black;
+    padding: 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    font-size: 13pt;
+    font-style: italic;
+    
+}
+
+footer, a {
+    text-decoration: none;
+    color: aliceblue;
 }
