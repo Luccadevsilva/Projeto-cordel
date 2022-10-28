@@ -68,8 +68,8 @@ section#img2 {
 }
 
 section {
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
     margin-top: 10px;
     margin-left: -10px;
     margin-right: -10px;
@@ -95,18 +95,74 @@ section.img {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
 }
 
+
 section.normal {
+    text-align: left;
     background-color:antiquewhite ;
-    background-image: url(Imagens/1523623.jpg);
-    background-size: 250px;
+    padding: 20px;
     background-repeat: no-repeat;
-    background-position: center right;
     color: rgb(10, 10, 10);
     margin: -10px;
     
     
     
 }
+
+div {
+    background-color: rgba(0, 255, 255, 0.356);  
+    width: 50px;
+    padding: 15px;
+    columns: 1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: fixed;
+    margin-top: -300px;
+    margin-left: 190vh;
+    
+}
+
+.img1 {
+    height: 50px;
+}
+
+.img2 {
+    height: 50px;
+}
+
+.img3 {
+    height: 50px;
+}
+
+
+aside {
+    background-color: rgba(165, 42, 42, 0.904);
+    max-width: 300px;
+    max-height: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 1000px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: fixed;
+    box-shadow: 2px 2px 2px 0px black;
+    
+
+    bottom: 20px;
+    
+    
+}
+
+img {
+    height: 230px;
+}
+
+
 #milton {
     color: purple;
 }
