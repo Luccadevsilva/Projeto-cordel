@@ -109,38 +109,38 @@ section.normal {
 }
 
 div {
-    background-color: rgba(0, 255, 255, 0.356);
-    width: 50px;
-    height: 180px;
-    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.527);
+    width: 156px;
+    height: 40px;
+    padding: 8px;
     border-radius: 10px;
-    border: 2px solid black;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    margin-top: -135px;
+    margin-left: 31.8em;
+    border: 2px solid black;
     position: fixed;
-    margin-top: -300px;
-    margin-left: 190vh;
 }
 
 .img1 {
-    height: 50px;
+    height: 40px;
 }
 
 .img2 {
-    height: 50px;
+    height: 40px;
 }
 
 .img3 {
-    height: 50px;
+    height: 40px;
 }
 
 
 aside {
-    background-color: rgba(165, 42, 42, 0.904);
+    background-color: rgba(165, 42, 42, 0.705);
     max-width: 300px;
-    max-height: 300px;
+    max-height: 310px;
     padding: 10px;
     text-align: center;
     margin-left: 1000px;
