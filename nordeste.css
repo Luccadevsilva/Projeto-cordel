@@ -109,11 +109,12 @@ section.normal {
 }
 
 div {
-    background-color: rgba(0, 255, 255, 0.356);  
+    background-color: rgba(0, 255, 255, 0.356);
     width: 50px;
-    padding: 15px;
-    columns: 1;
+    height: 180px;
+    padding: 10px;
     border-radius: 10px;
+    border: 2px solid black;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -121,7 +122,6 @@ div {
     position: fixed;
     margin-top: -300px;
     margin-left: 190vh;
-    
 }
 
 .img1 {
@@ -150,7 +150,7 @@ aside {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     position: fixed;
-    box-shadow: 2px 2px 2px 0px black;
+    border: 2px solid black;
     
 
     bottom: 20px;
