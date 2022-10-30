@@ -93,6 +93,7 @@ section.img {
     background-size: cover;
     background-attachment: fixed;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
+    
 }
 
 
@@ -103,9 +104,11 @@ section.normal {
     background-repeat: no-repeat;
     color: rgb(10, 10, 10);
     margin: -10px;
-    
-    
-    
+    transition: 5s ;
+    -webkit-transition: 5s ;
+    -moz-transition: 5s ;
+    -ms-transition: 5s ;
+    -o-transition: 5s ;
 }
 
 div {
@@ -122,6 +125,7 @@ div {
     margin-left: 31.8em;
     border: 2px solid black;
     position: fixed;
+    
 }
 
 .img1 {
